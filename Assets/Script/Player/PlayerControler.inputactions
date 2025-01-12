@@ -1,0 +1,94 @@
+{
+    "name": "PlayerControler",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "49901f8b-1582-4edb-879c-2cce9444165c",
+            "actions": [
+                {
+                    "name": "WalkUp",
+                    "type": "Button",
+                    "id": "70914282-28fb-49ae-a59b-2bf0971a1c68",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "WalkLeft",
+                    "type": "Button",
+                    "id": "17df8b62-c6f1-41d2-9d88-65a8dab4b98d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "WalkRight",
+                    "type": "Button",
+                    "id": "82be0abf-04f4-4999-a229-4d430f9c0fa0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "WalkDown",
+                    "type": "Button",
+                    "id": "6afd5ad9-9960-4080-b948-fe94c184b41b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "42e67bf3-80f4-4fed-9088-8290be7dad3f",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WalkUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a0e635d0-2f72-4ec6-b472-aa486116af53",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WalkLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e5f2b405-3cf1-4eff-a6b0-24596022491c",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WalkRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f55fe7f3-545f-400f-b748-80a48758d279",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WalkDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
